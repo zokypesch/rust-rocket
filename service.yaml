@@ -1,0 +1,2 @@
+service: rg-rust
+stack: rust
