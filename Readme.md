@@ -10,6 +10,10 @@ rustup installs rustc, cargo, rustup and other standard tools to Cargo's bin dir
 
 This directory will be in your $PATH environment variable, which means you can run them from the shell without further configuration. Open a new shell and type the following:
 
+rustup show 
+rustup default nightly-x86_64-apple-darwin
+rustup default stable-x86_64-apple-darwin
+
 https://github.com/rust-lang/rustup.rs
 rustup update && cargo update # update / install library
 
